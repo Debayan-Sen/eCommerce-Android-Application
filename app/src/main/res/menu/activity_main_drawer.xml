@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="none">
+        <item
+            android:id="@+id/navigation_shop"
+            android:icon="@drawable/home"
+            android:title="Home" />
+        <item
+            android:id="@+id/navigation_order"
+            android:icon="@drawable/order"
+            android:title="My Orders" />
+        <item
+            android:id="@+id/navigation_cart"
+            android:icon="@drawable/supercart"
+            android:title="My Cart" />
+        <item
+            android:id="@+id/navigation_track_order"
+            android:icon="@drawable/tracking"
+            android:title="Track Order" />
+        <item
+            android:id="@+id/navigation_my_wishlist"
+            android:icon="@drawable/wishlist"
+            android:title="My Wishlist" />
+        <item
+            android:id="@+id/navigation_my_account"
+            android:icon="@drawable/icon_user"
+            android:title="@string/Account_Activity" />
+
+
+    </group>
+
+    <group android:checkableBehavior="none">
+        <item android:title="Offer Zone">
+        <menu>
+
+            <item
+                android:id="@+id/navigation_offer"
+                android:icon="@drawable/gift"
+                android:title="Today's special" />
+
+            <item
+                android:id="@+id/navigation_payment"
+                android:icon="@drawable/smart_payment"
+                android:title="Smart Payment Offers" />
+
+            <item
+                android:id="@+id/navigation_sell"
+                android:icon="@drawable/sellhere"
+                android:title="Sell On E-Craft" />
+
+
+        </menu>
+        </item>
+    </group>
+
+
+    <group android:checkableBehavior="none">
+        <item android:title="Communicate">
+            <menu>
+                <item
+                    android:id="@+id/navigation_helpline"
+                    android:icon="@drawable/ic_menu_share"
+                    android:title="Helpline" />
+                <item
+                    android:id="@+id/navigation_about"
+                    android:icon="@drawable/ic_menu_send"
+                    android:title="About Us" />
+
+            </menu>
+        </item>
+    </group>
+
+
+</menu>

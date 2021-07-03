@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".confirmOrder">
+    <RelativeLayout
+        android:id="@+id/rl11"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorPrimary">
+        <TextView
+            android:id="@+id/totalPrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Confirm Shipment Details"
+            android:textColor="@color/colorWhite"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"
+            android:textAlignment="center"/>
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/sud"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="(YOU CAN CHANGE DETAILS IF YOU WISH)"
+        android:layout_marginTop="15dp"
+        android:textStyle="bold"
+        android:visibility="gone"
+        android:textSize="15dp"/>
+
+
+    <EditText
+        android:id="@+id/cnm"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="NAME"/>
+    <EditText
+        android:id="@+id/cmail"
+        android:layout_marginTop="10dp"
+        android:hint="EMAIL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/cph"
+        android:layout_marginTop="10dp"
+        android:hint="PHONE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/cad"
+        android:layout_marginTop="10dp"
+        android:hint="ADDRESS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Payment Option:"
+        android:layout_marginTop="15dp"
+        android:textStyle="bold"
+        android:textSize="15dp"/>
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        <RadioButton
+            android:id="@+id/cod"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cash On Delivery(COD)"
+            android:layout_marginTop="5dp"
+            android:onClick="checkButton"/>
+        <RadioButton
+            android:id="@+id/card"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Card"
+            android:layout_marginTop="5dp"
+            android:onClick="checkButton"/>
+
+    </RadioGroup>
+    <TextView
+        android:id="@+id/text_view_selected"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_marginTop="27dp"
+        android:text="Your selection: "
+        android:textSize="18sp" />
+    <Button
+        android:id="@+id/confirm_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Confirm"
+        android:layout_gravity="bottom"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/colorWhite" />
+
+
+
+</LinearLayout>

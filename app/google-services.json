@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "455572872764",
+    "firebase_url": "https://c4u2ecraft.firebaseio.com",
+    "project_id": "c4u2ecraft",
+    "storage_bucket": "c4u2ecraft.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:455572872764:android:643ab60ce184751aac6d39",
+        "android_client_info": {
+          "package_name": "com.example.c4u2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "455572872764-t843v4c48gc6hjv8os55fo5o05lahn1u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.c4u2",
+            "certificate_hash": "7d3fcbc6daf314062635db10106e1f52e86e9f9a"
+          }
+        },
+        {
+          "client_id": "455572872764-pg5srqteic3vlkhdplkpiq5v4c17ge9u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA29IcRvsaa61ux4oGXAtNBXrvhOG0IlGc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "455572872764-pg5srqteic3vlkhdplkpiq5v4c17ge9u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

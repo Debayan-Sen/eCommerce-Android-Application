@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_shop">
+
+    <fragment
+        android:id="@+id/navigation_shop"
+        android:name="com.example.c4u2.ShopFragment"
+        android:label="Shop"
+        tools:layout="@layout/fragment_shop" />
+
+    <fragment
+        android:id="@+id/navigation_home_decor"
+        android:name="com.example.c4u2.Decor_Fragment"
+        android:label="Decor"
+        tools:layout="@layout/fragment_decor" />
+
+    <fragment
+        android:id="@+id/navigation_furniture"
+        android:name="com.example.c4u2.Furniture_Fragment"
+        android:label="Furniture"
+        tools:layout="@layout/fragment_furniture" />
+
+    <fragment
+        android:id="@+id/navigation_paintings"
+        android:name="com.example.c4u2.Painting_Fragment"
+        android:label="Painting"
+        tools:layout="@layout/fragment_painting" />
+
+
+
+
+    <activity
+        android:id="@+id/navigation_order"
+        android:name="com.example.c4u2.my_order_Main2Activity"
+        android:label="My Order"
+        tools:layout="@layout/activity_my_order__main2"
+
+        />
+
+    <activity
+        android:id="@+id/navigation_cart"
+        android:name="com.example.c4u2.my_cart_Main2Activity"
+        android:label="My Cart"
+        tools:layout="@layout/activity_my_cart__main2"
+
+        />
+
+    <activity
+        android:id="@+id/navigation_track_order"
+        android:name="com.example.c4u2.Track__order_Main2Activity"
+        android:label="Track Order"
+        tools:layout="@layout/activity_track_order__main2"
+
+        />
+
+    <activity
+        android:id="@+id/navigation_my_wishlist"
+        android:name="com.example.c4u2.My_wishlist_Main2Activity"
+        android:label="My Wishlist"
+        tools:layout="@layout/activity_my_wishlist__main2"
+
+        />
+
+
+
+    <activity
+        android:id="@+id/navigation_payment"
+        android:name="com.example.c4u2.Payment_Main2Activity"
+        android:label="Payment"
+        tools:layout="@layout/activity_payment__main2"
+
+        />
+
+    <activity
+        android:id="@+id/navigation_sell"
+        android:name="com.example.c4u2.sell_on_e_Main2Activity"
+        android:label="Sell On E-Craft"
+        tools:layout="@layout/activity_sell_on_e__main2"
+
+        />
+
+    <activity
+        android:id="@+id/navigation_offer"
+        android:name="com.example.c4u2.offer_Main2Activity"
+        android:label="Offer"
+        tools:layout="@layout/activity_offer__main2"
+
+        />
+
+    <activity
+        android:id="@+id/navigation_helpline"
+        android:name="com.example.c4u2.helpline_Main2Activity"
+        android:label="Helpline"
+        tools:layout="@layout/activity_helpline__main2"
+
+        />
+
+    <activity
+        android:id="@+id/navigation_about"
+        android:name="com.example.c4u2.about_us_Main2Activity"
+        android:label="About Us"
+        tools:layout="@layout/activity_about_us__main2"
+
+        />
+
+
+
+    <activity
+        android:id="@+id/navigation_my_account"
+        android:name="com.example.c4u2.MyAcctActivity"
+        android:label="My Account"
+        tools:layout="@layout/activity_my_acnt"
+
+        />
+
+
+</navigation>
